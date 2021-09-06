@@ -1,0 +1,145 @@
+@font-face { 
+    font-family: 'Alice'; 
+    src: url('Font/Alice.ttf');
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Minimalist';
+    font-style: normal;
+    font-weight: 400;
+    src: url("Font/Play.ttf")
+    
+  }
+
+body{
+    font-family: Alice;
+    background: rgb(51,51,51);
+    color: #fff;
+    padding:20px;
+}
+
+.page{
+    width: 100%;
+    overflow-x: auto;
+    height: 100%;
+    font-size: 50px;
+}
+
+.container{
+    font-family: Minimalist;
+}
+.row{
+    width: auto;
+    padding: 5px;
+    height: 110px;
+    display: table;
+    color: black;
+}
+
+
+
+.column{
+    float: left;
+    width: 33.33%;
+}
+
+
+.title{
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin: 0 0 0 5px;
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.title img{
+    height: 200px;
+    width: 200px;
+    margin: center;
+    margin-top: 50px;
+    filter: contrast(200%);
+    
+}
+
+.yellow{
+    background: #daa520
+}
+
+.blue{
+    background: #4682B4;
+}
+
+.red{
+    background: #CD0000;
+}
+
+.green{
+    background-color: #2e8B13;
+}
+
+.button{
+    background-color: #2e8B13; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonR{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #CD0000;
+    font-family: Alice;
+    font-size: 30px;
+}
+
+.buttonR:hover{
+    background-color: #CD0000;
+    color: white;
+}
+
+.buttonB{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4682B4;
+    font-family: Alice;
+    font-size: 30px;
+}
+
+.buttonB:hover{
+    background-color: #4682B4;
+    color: white;
+}
+
+.buttonY{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #daa520;
+    font-family: Alice;
+    font-size: 30px;
+}
+
+.buttonY:hover{
+    background-color: #daa520;
+    color: white;
+}
+
+.flavor{
+    
+    padding: 5px;
+    height: 110px;
+    display: block;
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+}
